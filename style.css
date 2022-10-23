@@ -1,0 +1,164 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: sans-serif;
+  color: white;
+}
+
+.topnav{
+  background:#086a9b;
+  overflow:hidden;
+  width:100%;
+}
+
+.topnav a{
+  float:left;
+  color:black;
+  padding:10px 12px;
+  text-align:center;
+  text-decoration:none;
+  font-size:23px;
+}
+.topnav a:hover{
+  background-color:white;
+  color:#1100fa;
+}
+.topnav a:active{
+  background-color:white;
+  color:red;
+}
+
+
+.flex-container{
+  display: flex;
+  
+}
+
+header{
+  height: 400px;
+  
+}
+
+.Names{
+  display: inline;
+  text-align: center;
+  width: 50%;
+  padding-left: 10px;
+  color: white;
+  margin:auto;
+  
+}
+
+.about{
+  padding-top:20px;
+}
+
+img,p{
+  padding:0 10px 0 10px;
+}
+
+.prose{
+  margin:auto;
+  width:80%;
+  
+}
+
+.details,.services{
+  padding-bottom:15px;
+  margin:auto;
+
+}
+
+.fa {
+  padding: 5px;
+  font-size: 40px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa-facebook, .fa-twitter{
+  color:blue;
+}
+.fa-whatsapp{
+  color:green;
+}
+.fa-instagram{
+  color:red;
+}
+
+
+.portfolio1{
+  display: flex;
+}
+.eagle1{
+  margin: auto;
+  padding:10px;
+  width: 40%;
+  margin-bottom: 20px;
+  border: 1px solid #25d0cd;
+}
+
+.eagle1 img{
+  width: 90%;
+  margin: auto;
+}
+.eagle1 a{
+  color: #b4b4c5;
+}
+.portfoliImage{
+  width:100%;
+}
+
+.title{
+  font-size:2em;
+  text-align:center;
+}
+
+.title2{
+  font-size:1.5em;
+  text-align:center;
+}
+
+body{
+  width: 100%;
+  background: url(./dark.jpg) no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;  
+}
+  
+
+
+.bottom{
+  display:flex;
+  width:90%;
+  margin:auto;
+  padding:0;
+  font-size:1.2em;
+}
+li{
+  padding:0px;
+}
+.Mypic{
+  padding:5px;
+}
+
+footer{
+  text-align:center;
+}
+/* .background{
+  content:'';
+  position:absolute;
+  background-image:url('./stars.jpg');
+  background-size:cover;
+  top:0px;
+  right:0px;
+  bottom:0px;
+  left:0px;
+  opacity:0.7; */
+  
+*/
+
+
+
