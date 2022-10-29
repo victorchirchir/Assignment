@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>forms</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <form action=''>
+    <div style="margin: auto; width: 90%;">
+      <header>
+        <div class="topnav">
+          <a href="./index.html">Register</a>
+          <a href="./Index2.html">Login</a>
+
+        </div>
+        <div>
+          <h1>Registration Page</h1>
+        </div>
+      </header>
+      <section class='group'>
+        <div>
+          <input type='text' name='fname' id='fname' placeholder='First Name'>
+        </div>
+        <div>
+          <input type='text' name='lname' id='lname' placeholder='Last Name'>
+        </div>
+      </section>
+      <section class='group'>
+        <div>
+          <input type='number' name='phone' id='phone' placeholder='Phone Number'>
+        </div>
+        <div>
+          <input type='email' name='email' id='email' placeholder='Enter Your Email'>
+        </div>
+      </section>
+      <section class='group'>
+        <div>
+          <input type='password' name='password' id='password' placeholder='Create Your Password'>
+        </div>
+
+        <div>
+          <input type='password' name='ConfirmPassword' id='
+          ConfirmPassword' placeholder='Confirm Password' required>
+        </div>
+      </section>
+
+      <div>
+        <p>Other Details</p>
+      </div>
+      <section class='group'>
+        <div>
+          <input type='country' name='Country' id='
+          country' placeholder='Nationality'>
+        </div>
+        <div>
+
+
+          <select name='gender' id='gender' placeholder='Gender'>
+            <option value=''>Gender</option>
+            <option value='1'>Male</option>
+            <option value='2'>Female</option>
+          </select>
+        </div>
+      </section>
+      <section class='group'>
+        <div>
+          <label for="dob">Date of Birth:</label>
+          <input type='date' name='dob' id='dob'>
+        </div>
+        <div>
+          <label for="color">Favourite Color:</label>
+          <input type='color' name='color' id='color' placeholder='Favourite Colour'>
+        </div>
+      </section>
+      <section class="terms">
+        <p>Do You Agree with terms and Conditions</p>
+        <article>
+          <input class='check' type='checkbox' name='agree' id='agree'>
+        </article>
+
+      </section>
+      <div style='margin:auto'>
+        <button>
+          <a href='./Index2.html'>Login</a>
+        </button>
+      </div>
+    </div>
+  </form>
+  <script src="script.js"></script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+</body>
+<footer style="text-align: center;">Victor©Codes</footer>
+
+</html>
